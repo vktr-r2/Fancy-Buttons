@@ -5,7 +5,7 @@ const CounterButton = () => {
 
   return (
     <button className="CounterButton">
-      You clicked me {clickCounter} amount of times
+      You clicked me {clickCounter} times
     </button>
   );
 };
