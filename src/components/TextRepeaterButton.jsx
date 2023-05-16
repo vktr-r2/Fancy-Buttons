@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const TextRepeaterButton = () => {
-  const [repetitions, setRepititions] = useState();
+  const [repetitions, setRepititions] = useState(1);
   const repetitionsArray = [];
 
-  for (const i = repetitions; i > 0; i--) {
-    repetitionsArray.push(<span key={i}>I like this text</span>)
+  for (let i = repetitions; i > 0; i--) {
+    repetitionsArray.push(<span key={i}> I like this text!</span>)
   }
 
   return (

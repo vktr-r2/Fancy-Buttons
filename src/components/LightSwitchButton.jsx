@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const LightSwitchButton = () => {
-  const [lightStatus, setLightStatus] = useState();
+  const [lightStatus, setLightStatus] = useState('off');
 
   return (
     <button className="LightSwitchButton">
