@@ -1,3 +1,6 @@
+//Import React functions/methods
+import React, {useState} from 'react';
+
 //Import CSS
 import "./App.css";
 
