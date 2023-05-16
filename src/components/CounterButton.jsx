@@ -4,7 +4,9 @@ const CounterButton = () => {
   const [clickCounter, setClickCounter] = useState();
 
   return (
-    <button className="CounterButton">You clicked me X amount of times</button>
+    <button className="CounterButton">
+      You clicked me {clickCounter} amount of times
+    </button>
   );
 };
 
